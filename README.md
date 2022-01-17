@@ -34,59 +34,60 @@ Validate the HTML code.
 
 Publish the website in the given URL.
 
-## PROGRAM :
-<!DOCTYPE html>
-<html lang="en">
-<head>
+## program:
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATHEMATICS CALCULATION</title>
     <style>
         * {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-body {
-  background-color: black;
-}
-.container {
-  width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  padding-left: 300px;
-}
-.content {
-  display:block;
-  width: 500px;
-  background-color:black;
-  min-height: 300px;
-  font-size: 20px;
-}
-h1{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+    background-color: black;
+    }
+    .container {
+     width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 300px;
+    }
+    .content {
+    display:block;
+    width: 500px;
+    background-color:black;
+    min-height: 300px;
+    font-size: 20px;
+    }
+    h1{
     text-align: center;
     padding-top: 25px;
-}
-.formelement{
+    }
+    .formelement{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-.footer {
-  display: inline-block;
-  width: 100%;
-  height: 40px;
-  background-color:;
-  text-align:right;
-  padding-top: 60px;
-  margin: 0px 0px 0px 0px;
-  color: #000000;
-}
+    }
+    .footer {
+     display: inline-block;
+     width: 100%;
+    height: 40px;
+    background-color:;
+    text-align:right;
+    padding-top: 60px;
+    margin: 0px 0px 0px 0px;
+    color: #000000;
+    }
     </style>
-</head>
-<body>
-<div class="container">
+    </head>
+    <body>
+    <div class="container">
         <div class="content">
             <h1>AREA OF A TRIANGLE</h1>
             <form>
@@ -111,7 +112,7 @@ h1{
             </form>
     
 
-</div>
+    </div>
     </div>
     <script type="text/javascript">
         var button;
@@ -126,7 +127,7 @@ h1{
             hval=parseInt(htext.value);
             cval=0.5*bval*hval;
             ctext.value=""+cval;
-var namefield
+    var namefield
             var bedit,reg,res;
             namefield=document.querySelector("#bedit");
             bedit = namefield.value;
@@ -139,7 +140,7 @@ var namefield
             else{
                 alert("Answer is");
             }
-var namefield
+     var namefield
             var hedit,reg,res;
             namefield=document.querySelector("#hedit");
             hedit = namefield.value;
@@ -154,7 +155,7 @@ var namefield
             }
             
             });
- </script>
+    </script>
     </br>
     <div class="container">
         <div class="content">
@@ -180,7 +181,7 @@ var namefield
                      </div>
             </form>
 
-</div>
+    </div>
     </div>
     <script type="text/javascript">
         var button;
@@ -195,7 +196,7 @@ var namefield
             Hval=parseInt(Htext.value);
             vval=3.14*Rval*Rval*Hval*0.3;
             vtext.value=""+vval;
-var namefield
+    var namefield
             var Redit,reg,res;
             namefield=document.querySelector("#Redit");
             Redit = namefield.value;
@@ -223,10 +224,10 @@ var namefield
             }
             
         });
-</script>
+    </script>
 
-</body>
-</html>
+    </body>
+    </html>
 
 ## output:
 ![output](./image.png)
